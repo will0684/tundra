@@ -1,0 +1,42 @@
+/* Gender selection screen */
+#prompt-male, #prompt-female {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 50%;
+    min-height: 100%;
+    background-color: cornflowerblue;
+    transition: transform 0.5s ease-in;
+}
+#prompt-female {
+    left: 50%;
+    background-color: magenta;
+}
+#prompt-female p, #prompt-male p{
+    margin: 35vh auto;
+    color: black;
+    text-align: center;
+}
+.move-left{
+    transform: translateX(-300%);
+}
+
+.move-right{
+    transform: translateX(300%);
+}
+
+.overlay-bars{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s linear;
+}
+
+.overlay-bars.active{
+    visibility: visible;
+    opacity: 1; 
+    transition: visibility 0s, opacity 1s linear;
+}
+
+h2 {
+    text-align: center;
+}
