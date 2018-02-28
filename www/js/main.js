@@ -23,6 +23,7 @@ const app = {
     addHandlers: function(){
         // Add listeners to card divs
         let cardsNode = document.querySelectorAll('.card');
+        // Create instance of tinyshell for card element
         let mgr = new t$(cardsNode);
         mgr.addEventListener(t$.EventTypes.SWIPELEFT, app.reject);
         mgr.addEventListener(t$.EventTypes.SWIPERIGHT, app.accept);

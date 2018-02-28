@@ -36,7 +36,7 @@
     background: linear-gradient(to bottom right, lightskyblue, lightblue);
 }
 
-/* Menu bar and tabs CSS */
+/* Overlay CSS */
 .overlay-bars{
     visibility: hidden;
     opacity: 0;
@@ -80,6 +80,16 @@ h2 {
 }
 
 /* List item CSS for Favourites */
-.list-item{
+.list-view{
+    margin-top: 0;
 
 }
+.list-item{
+    margin: 0.2rem;
+}
+.list-item p{
+    text-align: center;
+    padding-top: 7.5%;
+}
+
+/* Tab bar CSS edit to keep cards from disappearing behind the tab bar */
