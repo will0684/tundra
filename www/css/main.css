@@ -40,13 +40,17 @@
 .overlay-bars{
     visibility: hidden;
     opacity: 0;
-    transition: visibility 0s, opacity 0.3s linear;
+    transition: visibility .8s, opacity 0.6s linear;
 }
 
 .overlay-bars.active{
     visibility: visible;
     opacity: 1; 
-    transition: visibility 0s, opacity 1s linear;
+    transition: visibility .2s, opacity .2s linear;
+}
+.overlay-bars.active h1{
+    border-radius: 5px;
+    background-color: black;
 }
 
 /* Favourites Header CSS */
@@ -85,11 +89,12 @@ h2 {
 
 }
 .list-item{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(238, 238, 238);
     margin: 0.2rem;
 }
 .list-item p{
     text-align: center;
-    padding-top: 7.5%;
+    padding-top: 7%;
 }
-
-/* Tab bar CSS edit to keep cards from disappearing behind the tab bar */
