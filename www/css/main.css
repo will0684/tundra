@@ -2,6 +2,7 @@
 #gender{
     background: linear-gradient(to bottom right, lightskyblue, lightblue);
 }
+
 #prompt-male, #prompt-female {
     position: absolute;
     top: 0%;
@@ -40,14 +41,15 @@
 .overlay-bars{
     visibility: hidden;
     opacity: 0;
-    transition: visibility .8s, opacity 0.6s linear;
+    transition: visibility .4s, opacity 0.4s linear;
 }
 
 .overlay-bars.active{
     visibility: visible;
     opacity: 1; 
-    transition: visibility .2s, opacity .2s linear;
+    transition: visibility .1s, opacity .2s linear;
 }
+
 .overlay-bars.active h1{
     border-radius: 5px;
     background-color: black;
@@ -75,9 +77,11 @@ h2 {
     border: 1px blue solid;
     border-radius: 5px;
 }
+
 .card img{
     padding: 0;
 }
+
 .card p{
     font-size: 0.8rem;
     text-align: center;
@@ -88,13 +92,21 @@ h2 {
     margin-top: 0;
 
 }
+
 .list-item{
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-bottom-color: rgb(238, 238, 238);
+    background-color: azure;
     margin: 0.2rem;
 }
+
 .list-item p{
     text-align: center;
-    padding-top: 7%;
+    padding-top: 6%;
+}
+
+/* Menu Bar CSS */
+.nopointer{
+    pointer-events: none;
 }
