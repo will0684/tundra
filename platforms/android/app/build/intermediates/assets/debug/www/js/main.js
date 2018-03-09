@@ -15,8 +15,8 @@ const app = {
         // Add swipe event listeners to gender selection screen
         gender.addEventListener(t$.EventTypes.SWIPELEFT, app.genSwipe);
         gender.addEventListener(t$.EventTypes.SWIPERIGHT, app.genSwipe);
-        // Add event listeners to tab menu at bottom of display
-        app.addFavs();
+        // Remove pointer/tap event CSS from the menu bar at bottom
+        document.querySelector(".bar").classList.add("nopointer");
     },
 
     // Add listeners for cards and bottom bar tabs
@@ -30,6 +30,8 @@ const app = {
         // Add listeners to bottom bar tabs for Home/main and Favourites
         let nmgr = new t$(document.querySelectorAll(".bar .tab"));
         nmgr.addEventListener(t$.EventTypes.TAP, app.nav);
+        // Add pointer/tap event CSS back to menu bar at bottom
+        document.querySelector(".bar").classList.remove("nopointer");
     },
 
     // Swipe at intro screen to choose gender
@@ -81,6 +83,8 @@ const app = {
         .then(response => response.json())
         // Take that JSON and place certain properties into variables for local management and later use
         .then(data => {
+            console.log(app.DATA);
+            console.log(data);
             // Place ALL json data retrieved into DATA namespace
             app.DATA = data;
             // Take encoded URL from DATA and decode it, then enter it into imgUrl namespace
@@ -120,6 +124,7 @@ const app = {
             // Create text field for distance
             let dist = document.createElement('p');
             dist.textContent = `This person is ${person.distance} away!`;
+            document.querySelector('#main').innerHTML = '';
             card.appendChild(name);
             card.appendChild(img);
             card.appendChild(dist);
@@ -151,7 +156,7 @@ const app = {
             // Shift the first member of the local app.profiles array OFF the array
             app.profiles.shift();
             // If there are 3 or less items left in the array, get more profiles and add them to the remaining profiles
-            if (app.profiles.length <= 3){
+            if (app.profiles.length < 3){
                 app.getData();
         }
         }, 250);},
@@ -220,6 +225,7 @@ const app = {
     // Create favourites array and then loop through sessionStorage based on it's length, adding each sessionStorage member to the array
     addFavs: function(){
         let favourites = [];
+        console.log(sessionStorage.length);
         for (let i = 0; i < sessionStorage.length; i++) {
             // Get key for member in sessionStorage at position of index i, place it in a variable
             let keyvar = sessionStorage.key(i);

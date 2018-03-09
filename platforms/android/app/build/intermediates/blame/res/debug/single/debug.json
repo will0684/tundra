@@ -8,10 +8,6 @@
         "source": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/assignments/appdev/tundra/platforms/android/app/src/main/res/drawable-port-xxxhdpi/screen.png"
     },
     {
-        "merged": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/assignments/appdev/tundra/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_icon.png.flat",
-        "source": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/assignments/appdev/tundra/platforms/android/app/src/main/res/mipmap-xxxhdpi/icon.png"
-    },
-    {
         "merged": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/assignments/appdev/tundra/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xhdpi_screen.png.flat",
         "source": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/assignments/appdev/tundra/platforms/android/app/src/main/res/drawable-land-xhdpi/screen.png"
     },
@@ -22,10 +18,6 @@
     {
         "merged": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/assignments/appdev/tundra/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xxhdpi_screen.png.flat",
         "source": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/assignments/appdev/tundra/platforms/android/app/src/main/res/drawable-land-xxhdpi/screen.png"
-    },
-    {
-        "merged": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/assignments/appdev/tundra/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_icon.png.flat",
-        "source": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/assignments/appdev/tundra/platforms/android/app/src/main/res/mipmap-xxhdpi/icon.png"
     },
     {
         "merged": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/assignments/appdev/tundra/platforms/android/app/build/intermediates/res/merged/debug/xml_config.xml.flat",
@@ -48,10 +40,6 @@
         "source": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/assignments/appdev/tundra/platforms/android/app/src/main/res/drawable-land-ldpi/screen.png"
     },
     {
-        "merged": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/assignments/appdev/tundra/platforms/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_icon.png.flat",
-        "source": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/assignments/appdev/tundra/platforms/android/app/src/main/res/mipmap-hdpi/icon.png"
-    },
-    {
         "merged": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/assignments/appdev/tundra/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-mdpi_screen.png.flat",
         "source": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/assignments/appdev/tundra/platforms/android/app/src/main/res/drawable-land-mdpi/screen.png"
     },
@@ -66,13 +54,5 @@
     {
         "merged": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/assignments/appdev/tundra/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-hdpi_screen.png.flat",
         "source": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/assignments/appdev/tundra/platforms/android/app/src/main/res/drawable-port-hdpi/screen.png"
-    },
-    {
-        "merged": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/assignments/appdev/tundra/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_icon.png.flat",
-        "source": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/assignments/appdev/tundra/platforms/android/app/src/main/res/mipmap-xhdpi/icon.png"
-    },
-    {
-        "merged": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/assignments/appdev/tundra/platforms/android/app/build/intermediates/res/merged/debug/mipmap-ldpi_icon.png.flat",
-        "source": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/assignments/appdev/tundra/platforms/android/app/src/main/res/mipmap-ldpi/icon.png"
     }
 ]

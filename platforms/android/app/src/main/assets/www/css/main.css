@@ -105,3 +105,8 @@ h2 {
     text-align: center;
     padding-top: 6%;
 }
+
+/* Menu Bar CSS */
+.nopointer{
+    pointer-events: none;
+}
